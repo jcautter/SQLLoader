@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0.0' 
+VERSION = '1.0.1' 
 DESCRIPTION = 'SQLLoader connection'
 LONG_DESCRIPTION = 'SQLLoader connection'
 
@@ -14,7 +14,7 @@ setup(
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
-        install_requires=['SQLServer', 'pandas'], # adicione outros pacotes que 
+        install_requires=['SQLServer', 'pandas', 'numpy'], # adicione outros pacotes que 
         # precisem ser instalados com o seu pacote. Ex: 'caer'
         
         keywords=['python', 'first package'],
