@@ -1,5 +1,6 @@
 from SQLServer import SQLServer
 import pandas as pd
+import numpy as np
 
 class SQLLoader:
     
